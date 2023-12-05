@@ -7,6 +7,7 @@
             // init
             var input = Console.ReadLine();
             List<string> engine_schema = new List<string>();
+            List<List<(int adjacent_numbers, int gear_ration)>> gear_schema = new List<List<(int , int)>>();
             int sum = 0, sum2 = 0;
             int line = 0;
             (int y,int x)[] dirs = {(0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (1, -1), (-1, 1), (-1, -1)};
@@ -16,6 +17,7 @@
             {
 
                 engine_schema.Add(input);
+                gear_schema.Add(Enumerable.Repeat((0,1), input.Length).ToList());
                 line++;
 
                 input = Console.ReadLine();
@@ -52,8 +54,18 @@
                                     if (!Char.IsDigit(engine_schema[pos.y + dir.y][pos.x + dir.x])
                                         && engine_schema[pos.y + dir.y][pos.x + dir.x] != '.')
                                         valid = true;
+                                    // part two
+                                    if (engine_schema[pos.y + dir.y][pos.x + dir.x] == '*')
+                                    {
+                                        var gear_data = gear_schema[pos.y + dir.y][pos.x + dir.x];
+                                        gear_data.adjacent_numbers++;
+                                        gear_data.gear_ration *= Convert.ToInt32(num);
+                                        gear_schema[pos.y + dir.y][pos.x + dir.x] = gear_data;
+                                    }
                                 }
+                                if (valid) break;
                             }
+                            if (valid) break;
                         }
 
                         if (valid)
@@ -63,30 +75,16 @@
                 }
             }
 
-            // part two
-            // for (int y = 0; y < engine_schema.Count(); y++)
-            // {
-            //     for (int x = 0; x < engine_schema[y].Count(); x++)
-            //     {
-            //         byte adjacent_numbers = 0;
-            // 
-            //         if (engine_schema[y][x] == '*')
-            //         {
-            //             foreach (var dir in dirs)
-            //             {
-            //                 if ( x + dir.x < engine_schema[0].Count()
-            //                     && y + dir.y < engine_schema.Count()
-            //                     && x + dir.x >= 0
-            //                     && y + dir.y >= 0)
-            //                 {
-            //                     if (!Char.IsDigit(engine_schema[y + dir.y][x + dir.x])
-            //                         && engine_schema[y + dir.y][x + dir.x] != '.')
-            //                         adjacent_numbers++;
-            //                 }
-            //             }
-            //         }
-            //     }
-            // }
+            // sum of gear ratios (part two)
+            foreach (var row in gear_schema)
+            {
+               foreach (var pos in row)
+               {
+                    if (pos.adjacent_numbers == 2)
+                        sum2 += pos.gear_ration;
+               }
+            }
+            
             // end part two
 
             // output
