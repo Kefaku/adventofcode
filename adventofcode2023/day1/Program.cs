@@ -12,7 +12,7 @@ namespace adventofcode2023
 
             while (input != null && input != string.Empty)
             {
-                //part two
+                // part two
                 Dictionary<string, string> digits = new Dictionary<string, string>
                 {
                     {"one", "1"},
@@ -42,7 +42,7 @@ namespace adventofcode2023
                     match => $"{digits[match.Value]}{match.Value}",
                     RegexOptions.IgnoreCase | RegexOptions.RightToLeft
                 );
-                //end part two
+                // end part two
 
                 // find first digit
                 short first = Convert.ToInt16(
