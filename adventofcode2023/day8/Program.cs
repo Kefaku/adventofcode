@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace adventofcode2023
 {
-    class day5
+    class day8
     {
         public static void Main(String[] args)
         {
@@ -85,7 +85,7 @@ namespace adventofcode2023
             
             // output
             Console.WriteLine($"required steps (part one): {steps}");
-            Console.WriteLine($"required steps (part two): {steps2}");
+            // Console.WriteLine($"required steps (part two): {steps2}");
             Console.ReadKey();
         }
     }
