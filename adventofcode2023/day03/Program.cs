@@ -1,6 +1,6 @@
 ﻿namespace adventofcode2023
 {
-    class day3
+    class day03
     {
         public static void Main(String[] args)
         {

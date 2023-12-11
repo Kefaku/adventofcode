@@ -5,14 +5,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day1",
+            "name": "launch 2023/day01",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day1/bin/Debug/net8.0/day1.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day01/bin/Debug/net8.0/day01.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day1",
+            "cwd": "${workspaceFolder}/adventofcode2023/day01",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -21,14 +21,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day2",
+            "name": "launch 2023/day02",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day2/bin/Debug/net8.0/day2.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day02/bin/Debug/net8.0/day02.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day2",
+            "cwd": "${workspaceFolder}/adventofcode2023/day02",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -37,14 +37,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day3",
+            "name": "launch 2023/day03",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day3/bin/Debug/net8.0/day3.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day03/bin/Debug/net8.0/day03.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day3",
+            "cwd": "${workspaceFolder}/adventofcode2023/day03",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -53,14 +53,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day4",
+            "name": "launch 2023/day04",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day4/bin/Debug/net8.0/day4.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day04/bin/Debug/net8.0/day04.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day4",
+            "cwd": "${workspaceFolder}/adventofcode2023/day04",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -69,14 +69,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day5",
+            "name": "launch 2023/day05",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day5/bin/Debug/net8.0/day5.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day05/bin/Debug/net8.0/day05.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day5",
+            "cwd": "${workspaceFolder}/adventofcode2023/day05",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -85,14 +85,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day6",
+            "name": "launch 2023/day06",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day6/bin/Debug/net8.0/day6.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day06/bin/Debug/net8.0/day06.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day6",
+            "cwd": "${workspaceFolder}/adventofcode2023/day06",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -101,14 +101,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day7",
+            "name": "launch 2023/day07",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day7/bin/Debug/net8.0/day7.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day07/bin/Debug/net8.0/day07.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day7",
+            "cwd": "${workspaceFolder}/adventofcode2023/day07",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -117,14 +117,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day8",
+            "name": "launch 2023/day08",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day8/bin/Debug/net8.0/day8.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day08/bin/Debug/net8.0/day08.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day8",
+            "cwd": "${workspaceFolder}/adventofcode2023/day08",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -133,14 +133,14 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": "launch 2023/day9",
+            "name": "launch 2023/day09",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/adventofcode2023/day9/bin/Debug/net8.0/day9.dll",
+            "program": "${workspaceFolder}/adventofcode2023/day09/bin/Debug/net8.0/day09.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/adventofcode2023/day9",
+            "cwd": "${workspaceFolder}/adventofcode2023/day09",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false

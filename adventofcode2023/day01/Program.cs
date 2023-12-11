@@ -2,7 +2,7 @@
 
 namespace adventofcode2023
 {
-    class day1
+    class day01
     {
         public static void Main(String[] args)
         {
