@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace adventofcode2023
+﻿namespace adventofcode2023
 {
     class day7
     {

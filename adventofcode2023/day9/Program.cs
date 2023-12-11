@@ -1,8 +1,6 @@
-﻿using System.Text.RegularExpressions;
-
-namespace adventofcode2023
+﻿namespace adventofcode2023
 {
-    class day4
+    class day9
     {
         public static void Main(String[] args)
         {

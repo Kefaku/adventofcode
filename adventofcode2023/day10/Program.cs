@@ -1,11 +1,6 @@
-﻿using System.Data;
-using System.Net.WebSockets;
-using System.Text.RegularExpressions;
-using Microsoft.VisualBasic;
-
-namespace adventofcode2023
+﻿namespace adventofcode2023
 {
-    class day4
+    class day10
     {
         public static void Main(String[] args)
         {
